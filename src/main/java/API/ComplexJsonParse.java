@@ -1,4 +1,4 @@
-/*
+package API;/*
 {
 "dashboard": {
 "purchaseAmount": 910,
@@ -31,8 +31,6 @@
 import files.payload;
 import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
-
-import java.sql.SQLOutput;
 
 public class ComplexJsonParse {
     public static void main(String[] x) {

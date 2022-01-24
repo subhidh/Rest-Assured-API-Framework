@@ -89,5 +89,16 @@ public class payload {
                 "\n" +
                 "}";
     }
-
+    public static String JiraUpdateComment(String comment) {
+        return "{\n" +
+                "    \"body\": \""+comment+"\",\n" +
+                "    \"visibility\": {\n" +
+                "        \"type\": \"role\",\n" +
+                "        \"value\": \"Administrators\"\n" +
+                "    }\n" +
+                "}";
+    }
+    public static String JiraAuthentication(String username, String Password) {
+        return "{\"username\": \""+username+"\", \"password\": \""+Password+"\"}";
+    }
 }
