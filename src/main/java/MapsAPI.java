@@ -4,15 +4,20 @@ import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
-public class basics {
-    public static void main(String[] x){
+public class MapsAPI {
+    public static void main(String[] x) throws IOException {
         RestAssured.baseURI = "https://rahulshettyacademy.com";
 
         //add new place to maps
         String response = given().log().all().queryParam("key", "qaclick123").header("Content-Type", "application/json")
-                .body(payload.AddPlace())
+                //.body(payload.AddPlace())
+                .body(new String(Files.readAllBytes(Paths.get("C:\\RestAPI-Framework\\src\\main\\resources\\AddPlace.json"))))
                 .when().post("maps/api/place/add/json")
                 .then().assertThat().statusCode(200).body("scope", equalTo("APP"))
                 .header("Server", "Apache/2.4.18 (Ubuntu)").extract().asString();

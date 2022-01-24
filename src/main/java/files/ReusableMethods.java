@@ -7,4 +7,8 @@ public class ReusableMethods {
         JsonPath js = new JsonPath(s);
         return (js.getString(key));
     }
+    public static JsonPath rawToJson(String s) {
+        JsonPath js = new JsonPath(s);
+        return js;
+    }
 }
