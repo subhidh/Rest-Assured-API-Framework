@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9940c98-b297-4f96-8bce-875cb3195064" name="Default Changelist" comment="validate status">
+    <list default="true" id="f9940c98-b297-4f96-8bce-875cb3195064" name="Default Changelist" comment="Jira">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ComplexJsonParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API/ComplexJsonParse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MapsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API/MapsAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/files/payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/files/payload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ComplexJsonParse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MapsAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/files/payload.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/payload.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642950712621</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Jira">
+      <created>1643050718019</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643050718019</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +170,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="validate status" />
-    <option name="LAST_COMMIT_MESSAGE" value="validate status" />
+    <MESSAGE value="Jira" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jira" />
   </component>
 </project>
