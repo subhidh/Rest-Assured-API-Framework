@@ -43,7 +43,7 @@ public class MapsAPI {
                 .then().assertThat().log().all().statusCode(200).extract().response().asString();
 
 
-        String gotAddress = ReusableMethods.extractValuefromJson(getPlaceResponse, "address");
+        String gotAddress = ReusableMethods.extractStringfromJson(getPlaceResponse, "address");
 
         Assert.assertEquals(gotAddress, new_address);
     }

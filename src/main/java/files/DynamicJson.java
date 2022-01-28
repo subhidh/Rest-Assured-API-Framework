@@ -18,7 +18,7 @@ public class DynamicJson {
                 when().post("Library/Addbook.php")
                 .then().assertThat().statusCode(200).extract().response().asString();
 
-        String id = ReusableMethods.extractValuefromJson(response, "ID");
+        String id = ReusableMethods.extractStringfromJson(response, "ID");
 
         //delete book
         given().log().all().header("Content-Type", "application/json").
