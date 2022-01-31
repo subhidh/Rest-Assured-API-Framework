@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f9940c98-b297-4f96-8bce-875cb3195064" name="Default Changelist" comment="Jira">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/API/MapsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API/MapsAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JIRA/JiraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JIRA/JiraTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/files/DynamicJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/files/DynamicJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/files/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/files/ReusableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/API/MapsAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/API/MapsAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JIRA/JiraTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JIRA/JiraTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/files/DynamicJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/DynamicJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/files/ReusableMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/ReusableMethods.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +48,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/API" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Appium_Framework" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/OAuth2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -57,6 +59,7 @@
       <recent name="C:\RestAPI-Framework\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="OAuth2" />
       <recent name="" />
       <recent name="API" />
     </key>
@@ -66,7 +69,7 @@
       <command value=" {" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.JiraTest">
+  <component name="RunManager" selected="Application.OAuth20">
     <configuration name="ComplexJsonParse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="API.ComplexJsonParse" />
       <module name="RestAPI-Framework" />
@@ -94,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OAuth20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OAuth2.OAuth20" />
+      <module name="RestAPI-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OAuth2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DynamicJson" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAPI-Framework" />
       <extension name="coverage">
@@ -113,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OAuth20" />
         <item itemvalue="Application.JiraTest" />
         <item itemvalue="Application.MapsAPI" />
         <item itemvalue="TestNG.DynamicJson" />
@@ -157,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643050718019</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Jira">
+      <created>1643380727158</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643380727158</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -16,7 +16,7 @@ public class JiraTest {
 
         //sign-in
         SessionFilter sessionFilter = new SessionFilter();
-        String sessionID = given().header("Content-Type", "application/json")
+        String sessionID = given().relaxedHTTPSValidation().header("Content-Type", "application/json")
                 .body(payload.JiraAuthentication("subhidhagarwal", "Subhidh@28"))
                 .filter(sessionFilter)
                 .when().post("rest/auth/1/session")
