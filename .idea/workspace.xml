@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9940c98-b297-4f96-8bce-875cb3195064" name="Default Changelist" comment="Jira">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OAuth2/OAuth20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OAuth2/OAuth20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/POJO/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POJO_Deserialization/Api.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/POJO/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POJO_Deserialization/Courses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/POJO/GetCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POJO_Deserialization/GetCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/POJO/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POJO_Deserialization/Mobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/POJO/WebAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POJO_Deserialization/WebAutomation.java" afterDir="false" />
-    </list>
+    <list default="true" id="f9940c98-b297-4f96-8bce-875cb3195064" name="Default Changelist" comment="POJO Serialization" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643380727158</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="POJO Serialization">
+      <created>1643721160720</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643721160721</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +205,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="validate status" />
     <MESSAGE value="Jira" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jira" />
+    <MESSAGE value="POJO Serialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="POJO Serialization" />
   </component>
 </project>
