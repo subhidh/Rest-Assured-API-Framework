@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9940c98-b297-4f96-8bce-875cb3195064" name="Default Changelist" comment="POJO Serialization" />
+    <list default="true" id="f9940c98-b297-4f96-8bce-875cb3195064" name="Default Changelist" comment="POJO Serialization">
+      <change beforePath="$PROJECT_DIR$/src/main/java/POJO_serialization/MapsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POJO_serialization/MapsAPI.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,13 +43,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/OAuth2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/POJO" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\RestAPI-Framework\src\main\java" />
       <recent name="C:\RestAPI-Framework\src\main\java\POJO" />
       <recent name="C:\RestAPI-Framework\src\main\resources" />
     </key>
