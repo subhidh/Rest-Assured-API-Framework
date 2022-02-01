@@ -7,11 +7,8 @@
     <list default="true" id="f9940c98-b297-4f96-8bce-875cb3195064" name="Default Changelist" comment="Jira">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JIRA/JiraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JIRA/JiraTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/API/MapsAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/API/MapsAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JIRA/JiraTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JIRA/JiraTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/files/DynamicJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/DynamicJson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/files/ReusableMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/ReusableMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OAuth2/OAuth20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OAuth2/OAuth20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OAuth2/OAuth20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OAuth2/OAuth20.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +46,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/OAuth2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/POJO" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\RestAPI-Framework\src\main\java\POJO" />
       <recent name="C:\RestAPI-Framework\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
