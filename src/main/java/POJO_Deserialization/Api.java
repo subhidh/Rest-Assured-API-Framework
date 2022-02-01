@@ -1,6 +1,6 @@
-package POJO;
+package POJO_Deserialization;
 
-public class Mobile {
+public class Api {
 
 	private String courseTitle;
 	private String price;

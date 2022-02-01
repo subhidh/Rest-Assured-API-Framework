@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f9940c98-b297-4f96-8bce-875cb3195064" name="Default Changelist" comment="Jira">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/OAuth2/OAuth20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OAuth2/OAuth20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OAuth2/OAuth20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OAuth2/OAuth20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/POJO/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POJO_Deserialization/Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/POJO/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POJO_Deserialization/Courses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/POJO/GetCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POJO_Deserialization/GetCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/POJO/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POJO_Deserialization/Mobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/POJO/WebAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POJO_Deserialization/WebAutomation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,20 +70,26 @@
       <command value=" {" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.OAuth20">
-    <configuration name="ComplexJsonParse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="API.ComplexJsonParse" />
-      <module name="RestAPI-Framework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MapsAPI (1)">
     <configuration name="JiraTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JIRA.JiraTest" />
       <module name="RestAPI-Framework" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JIRA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapsAPI (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="POJO_serialization.MapsAPI" />
+      <module name="RestAPI-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POJO_serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapsAPI (1)" />
         <item itemvalue="Application.OAuth20" />
         <item itemvalue="Application.JiraTest" />
         <item itemvalue="Application.MapsAPI" />
         <item itemvalue="TestNG.DynamicJson" />
-        <item itemvalue="Application.ComplexJsonParse" />
       </list>
     </recent_temporary>
   </component>

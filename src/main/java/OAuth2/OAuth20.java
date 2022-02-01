@@ -2,17 +2,11 @@ package OAuth2;
 
 import static io.restassured.RestAssured.*;
 
-import POJO.Api;
-import POJO.GetCourse;
-import POJO.WebAutomation;
+import POJO_Deserialization.Api;
+import POJO_Deserialization.GetCourse;
+import POJO_Deserialization.WebAutomation;
 import files.ReusableMethods;
-import io.restassured.RestAssured;
 import io.restassured.parsing.Parser;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 
 import java.util.ArrayList;
