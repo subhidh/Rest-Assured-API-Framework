@@ -7,6 +7,11 @@ import POJO_Deserialization.GetCourse;
 import POJO_Deserialization.WebAutomation;
 import files.ReusableMethods;
 import io.restassured.parsing.Parser;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 
 import java.util.ArrayList;
@@ -16,7 +21,7 @@ import java.util.List;
 public class OAuth20 {
     public static void main(String[] args) throws InterruptedException {
 
-        /*System.setProperty("webdriver.edge.driver","C:\\RestAPI-Framework\\src\\main\\resources\\msedgedriver.exe");
+       System.setProperty("webdriver.edge.driver","C:\\RestAPI-Framework\\src\\main\\resources\\msedgedriver.exe");
         WebDriver driver = new EdgeDriver();
         driver.get("https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.email&auth_url=https://accounts.google.com/o/oauth2/v2/auth&client_id=692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com&response_type=code&redirect_uri=https://rahulshettyacademy.com/getCourse.php&state=asfddbf");
         WebElement emailKey = driver.findElement(By.cssSelector("input[type='email']"));
@@ -26,7 +31,7 @@ public class OAuth20 {
         WebElement passwordKeys = driver.findElement(By.cssSelector("input[type='password']"));
         passwordKeys.sendKeys("Subhidh@28");
         passwordKeys.sendKeys(Keys.ENTER);
-        Thread.sleep(3000);*/
+        Thread.sleep(3000);
 
         String[] courseTitles= { "Selenium Webdriver Java","Cypress","Protractor"};
 
@@ -75,7 +80,5 @@ public class OAuth20 {
         List<String> expectedList=	Arrays.asList(courseTitles);
 
         Assert.assertTrue(a.equals(expectedList));
-
-
     }
 }

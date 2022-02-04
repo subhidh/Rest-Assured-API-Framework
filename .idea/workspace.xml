@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9940c98-b297-4f96-8bce-875cb3195064" name="Default Changelist" comment="POJO Serialization">
-      <change beforePath="$PROJECT_DIR$/src/main/java/POJO_serialization/MapsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POJO_serialization/MapsAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OAuth2/OAuth20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OAuth2/OAuth20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OAuth2/OAuth20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OAuth2/OAuth20.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +50,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -65,7 +69,7 @@
       <command value=" {" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MapsAPI (1)">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="JiraTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JIRA.JiraTest" />
       <module name="RestAPI-Framework" />
@@ -112,30 +116,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicJson" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAPI-Framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="files.*" />
+          <option name="PATTERN" value="cucumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="files" />
-      <option name="MAIN_CLASS_NAME" value="files.DynamicJson" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="cucumber" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MapsAPI (1)" />
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Application.OAuth20" />
+        <item itemvalue="Application.MapsAPI (1)" />
         <item itemvalue="Application.JiraTest" />
         <item itemvalue="Application.MapsAPI" />
-        <item itemvalue="TestNG.DynamicJson" />
       </list>
     </recent_temporary>
   </component>
