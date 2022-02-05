@@ -1,4 +1,4 @@
-package Resources;
+package resources;
 
 import POJO_serialization.Address;
 import POJO_serialization.Location;

@@ -1,4 +1,4 @@
-package Resources;
+package resources;
 
 public enum APIRecources {
     AddPlaceAPI("/maps/api/place/add/json"),

@@ -30,7 +30,7 @@ package API;/*
 
 import files.payload;
 import io.restassured.path.json.JsonPath;
-import org.testng.Assert;
+import static org.junit.Assert.*;
 
 public class ComplexJsonParse {
     public static void main(String[] x) {
@@ -57,7 +57,7 @@ public class ComplexJsonParse {
         for(int i=0; i<js.getInt("courses.size()");i++) {
             sum+=(js.getInt("courses["+i+"].price") * js.getInt("courses["+i+"].copies"));
         }
-        Assert.assertEquals(sum, js.getInt("dashboard.purchaseAmount"));
+        assertEquals(sum, js.getInt("dashboard.purchaseAmount"));
 
     }
 }

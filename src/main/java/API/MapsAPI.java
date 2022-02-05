@@ -4,7 +4,7 @@ import files.ReusableMethods;
 import files.payload;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
-import org.testng.Assert;
+import static org.junit.Assert.*;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -45,7 +45,7 @@ public class MapsAPI {
 
         String gotAddress = ReusableMethods.extractStringfromJson(getPlaceResponse, "address");
 
-        Assert.assertEquals(gotAddress, new_address);
+        assertEquals(gotAddress, new_address);
     }
 }
 

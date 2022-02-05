@@ -1,4 +1,4 @@
-package Resources;
+package resources;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;

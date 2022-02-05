@@ -7,13 +7,22 @@
     <list default="true" id="f9940c98-b297-4f96-8bce-875cb3195064" name="Default Changelist" comment="POJO Serialization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logging.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logging.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Resources/TestDataBuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Resources/TestDataBuild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Resources/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Resources/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/API/ComplexJsonParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API/ComplexJsonParse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/API/MapsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API/MapsAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Resources/APIRecources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/APIRecources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Resources/TestDataBuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/TestDataBuild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Resources/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/Options/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/placeValidation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/placeValidation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/API/ComplexJsonParse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/API/ComplexJsonParse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/API/MapsAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/API/MapsAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Resources/APIRecources.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Resources/APIRecources.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Resources/TestDataBuild.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Resources/TestDataBuild.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Resources/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Resources/Utils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/StepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber/TestRunner.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +83,7 @@
       <command value=" {" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="JUnit.TestRunner (1)">
     <configuration name="JiraTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JIRA.JiraTest" />
       <module name="RestAPI-Framework" />
@@ -101,13 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapsAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="API.MapsAPI" />
-      <module name="RestAPI-Framework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OAuth20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OAuth2.OAuth20" />
       <module name="RestAPI-Framework" />
@@ -117,6 +119,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAPI-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.Options.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumber.Options" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.Options.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,13 +153,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAPI-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Options.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumber.Options" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.Options.TestRunner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner (1)" />
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Application.OAuth20" />
         <item itemvalue="Application.MapsAPI (1)" />
-        <item itemvalue="Application.JiraTest" />
-        <item itemvalue="Application.MapsAPI" />
       </list>
     </recent_temporary>
   </component>
